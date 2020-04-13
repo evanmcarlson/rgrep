@@ -4,7 +4,7 @@ a simple, restricted grep utility. rgrep is “restricted” in the sense that t
 grep is a UNIX utility that is used to search for patterns in text files. It’s a powerful and versatile tool: rgrep, while simplified, is still useful.
 
 The way rgrep is used is that a pattern is specified on the command line. rgrep then reads lines from its standard input and prints them out on its standard output if and only if the pattern “matches” the line. For example, we can use rgrep to search for lines that contain text file names that are at least 3 characters long (plus the extension) in a file like the following:
-#### using cat so you can see what lines are in the file:
+#### using cat to show the lines in the file:
 ```
 $ cat testin
 
