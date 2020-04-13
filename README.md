@@ -22,4 +22,4 @@ hello.txt hello_world.txt
 rgrep was given the pattern ".\.txt"; it printed only the lines from its standard input that matched this pattern.
 
 To compile the code, download it and navigate to the working directory. Open a terminal and run `gcc matcher.c -o rgrep`.
-To run a against a particular pattern, run `./rgrep pattern` 
+To run against a particular pattern, run `./rgrep [pattern]` 
